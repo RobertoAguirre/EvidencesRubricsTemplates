@@ -1,0 +1,34 @@
+/* General text styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Title row styles */
+  th.title-row {
+    background-color: #286e40;
+    color: white;
+  }
+  
+  /* Even row styles */
+  tr:nth-child(even) {
+    background-color: #e4f0db;
+  }
+  
+  /* Odd row styles */
+  tr:nth-child(odd) {
+    background-color: #c6e0b4;
+  }
+  
